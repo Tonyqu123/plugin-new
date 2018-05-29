@@ -1,0 +1,7 @@
+{
+  "/api/": "/",
+  "/jobs/:JobId/start": "/start",
+  "/jobs/:JobId/inspect/:timestamp": "/target",
+  "/tasks": "/tasks",
+  "/apps/:Name": "/apps"
+}

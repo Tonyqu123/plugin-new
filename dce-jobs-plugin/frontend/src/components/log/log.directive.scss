@@ -1,0 +1,25 @@
+.log-darken {
+  color: #fff;
+  background-color: #151718;
+  height: 450px;
+  overflow: auto;
+  padding: 10px 15px;
+
+  .log-line {
+    font-size: 12px;
+    font-family: Consolas, "SF Mono", Courier, monospace;
+    display: block;
+    word-break: break-all;
+    line-height: 12 * 1.4px;
+    margin-bottom: 0;
+    -webkit-font-smoothing: auto;
+
+    .timestamp, .name {
+      white-space: nowrap;
+      color: #aab2bd;
+    }
+    .message {
+      white-space: pre-wrap;
+    }
+  }
+}

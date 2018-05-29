@@ -1,0 +1,20 @@
+{
+    "Name": "dce-jobs-plugin",
+    "Icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4gIDx0aXRsZT5hcHAtam9iPC90aXRsZT4gIDxnPiAgICA8cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iIzI1MzU1YSIvPiAgICA8Zz4gICAgICA8cGF0aCBkPSJNMzcuMzE5LDcwLjk2MWExLjgxMywxLjgxMywwLDAsMS0xLjgxMy0xLjgxM1YyOS4yNzJsMC0uMDE4aC0uMDE2YTEuODEzLDEuODEzLDAsMCwwLTEuODEzLDEuODEzVjcwLjk0M2ExLjgxMywxLjgxMywwLDAsMCwxLjgxMywxLjgxM2gyOUExLjgxMiwxLjgxMiwwLDAsMCw2Ni4zLDcwLjk2MVoiIGZpbGw9IiNmZmYiLz4gICAgICA8cGF0aCBkPSJNMzEuNzYyLDc2LjVhMS44MTMsMS44MTMsMCwwLDEtMS44MTMtMS44MTNWMzQuODA5bDAtLjAxOGgtLjAxNkExLjgxMywxLjgxMywwLDAsMCwyOC4xMjMsMzYuNlY3Ni40OGExLjgxMywxLjgxMywwLDAsMCwxLjgxMywxLjgxM2gyOUExLjgxMiwxLjgxMiwwLDAsMCw2MC43NDgsNzYuNVoiIGZpbGw9IiNmZmYiLz4gICAgICA8cGF0aCBkPSJNNjEuOTI3LDIzLjcwN0g0MS4wNjNhMS44MTMsMS44MTMsMCwwLDAtMS44MTMsMS44MTNWNjUuNGExLjgxMywxLjgxMywwLDAsMCwxLjgxMywxLjgxM2gyOUExLjgxMywxLjgxMywwLDAsMCw3MS44NzcsNjUuNFYzMy42NThaTTYxLjQsMzVWMjcuNkw2OC44LDM1WiIgZmlsbD0iI2ZmZiIvPiAgICA8L2c+ICA8L2c+PC9zdmc+",
+    "Extensions": {
+        "daocloud.dce-jobs-plugin.Application.manage": {
+            "ExtendedPoint": "dce.core.Application.manageViews",
+            "Object": {
+                "Name": "应用作业",
+                "ComponentClass": {
+                    "ClassName": "dce.client.htmlbridge.HtmlView",
+                    "Object": {
+                        "Root": {
+                            "URL": "/index.html"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
